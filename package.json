@@ -1,0 +1,36 @@
+{
+  "name": "minni-manifest-assets",
+  "version": "0.1.0",
+  "description": "Create an icon set from a png logo",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && istanbul cover tape test.js",
+    "commit": "git-cz",
+    "setup": "npm i && semantic-release-cli setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minni-manifest-assets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minni-manifest-assets/issues"
+  },
+  "homepage": "https://github.com/minni-manifest-assets#readme",
+  "devDependencies": {
+    "tape": "*",
+    "standard": "*",
+    "nsp": "*",
+    "commitizen": "*",
+    "cz-conventional-changelog": "*",
+    "semantic-release-cli": "*",
+    "istanbul": "*"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
