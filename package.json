@@ -1,24 +1,26 @@
 {
   "name": "minni-manifest-assets",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Create an icon set from a png logo",
   "main": "index.js",
   "scripts": {
     "test": "standard && nsp check && istanbul cover tape test.js",
     "commit": "git-cz",
-    "setup": "npm i && semantic-release-cli setup"
+    "setup": "npm i && semantic-release-cli setup",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/minni-manifest-assets.git"
+    "url": "https://github.com/santiagogil/minni-manifest-assets.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Santiago Gil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/minni-manifest-assets/issues"
+    "url": "https://github.com/santiagogil/minni-manifest-assets/issues"
   },
-  "homepage": "https://github.com/minni-manifest-assets#readme",
+  "homepage": "https://github.com/santiagogil/minni-manifest-assets#readme",
   "devDependencies": {
     "tape": "*",
     "standard": "*",
@@ -26,7 +28,9 @@
     "commitizen": "*",
     "cz-conventional-changelog": "*",
     "semantic-release-cli": "*",
-    "istanbul": "*"
+    "istanbul": "*",
+    "travis-deploy-once": "^4.3.4",
+    "semantic-release": "^12.4.1"
   },
   "config": {
     "commitizen": {
