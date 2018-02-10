@@ -1,4 +1,6 @@
 # minni-manifest-assets
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/santiagogil/minni-manifest-assets.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Travis](https://img.shields.io/travis/santiagogil/minni-manifest-assets.svg)](https://travis-ci.org/santiagogil/minni-manifest-assets)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
