@@ -36,5 +36,8 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "jimp": "^0.2.28"
   }
 }
