@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var Jimp = require('jimp')
-var path = require('path')
 
 var from = process.argv[2]
 var to = process.argv[3]
