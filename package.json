@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "Create an icon set from a png logo",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "standard && nsp check && istanbul cover tape test.js",
     "commit": "git-cz",
