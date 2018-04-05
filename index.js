@@ -13,16 +13,16 @@ function processImage (image) {
   function createSet (err, img) {
     if (err) throw err
     img.clone()
-    .resize(512, Jimp.AUTO)
-    .write(to + '/' + 'icon-512x512.png')
+      .resize(512, Jimp.AUTO)
+      .write(to + '/' + 'icon-512x512.png')
     img.clone()
-    .resize(384, Jimp.AUTO)
-    .write(to + '/' + 'icon-384x384.png')
+      .resize(384, Jimp.AUTO)
+      .write(to + '/' + 'icon-384x384.png')
     img.clone()
-    .resize(256, Jimp.AUTO)
-    .write(to + '/' + 'icon-256x256.png')
+      .resize(256, Jimp.AUTO)
+      .write(to + '/' + 'icon-256x256.png')
     img.clone()
-    .resize(192, Jimp.AUTO)
-    .write(to + '/' + 'icon-192x192.png')
+      .resize(192, Jimp.AUTO)
+      .write(to + '/' + 'icon-192x192.png')
   }
 }
