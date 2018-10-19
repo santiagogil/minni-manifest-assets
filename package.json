@@ -26,7 +26,7 @@
     "tape": "*",
     "standard": "*",
     "nsp": "*",
-    "commitizen": "*",
+    "commitizen": ">=3.0.3",
     "cz-conventional-changelog": "*",
     "semantic-release-cli": "*",
     "istanbul": "*",
