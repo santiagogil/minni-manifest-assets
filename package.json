@@ -30,7 +30,7 @@
     "cz-conventional-changelog": "*",
     "semantic-release-cli": "*",
     "istanbul": "*",
-    "travis-deploy-once": "^5.0.0",
+    "travis-deploy-once": "^5.0.11",
     "semantic-release": "^15.0.0"
   },
   "config": {
