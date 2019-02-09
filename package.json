@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/santiagogil/minni-manifest-assets#readme",
   "devDependencies": {
-    "tape": "*",
+    "tape": ">=4.10.0",
     "standard": "*",
     "nsp": "*",
     "commitizen": "*",
