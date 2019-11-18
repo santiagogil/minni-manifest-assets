@@ -31,7 +31,7 @@
     "semantic-release-cli": "*",
     "istanbul": "*",
     "travis-deploy-once": "^5.0.0",
-    "semantic-release": "^15.0.0"
+    "semantic-release": "^15.13.31"
   },
   "config": {
     "commitizen": {
