@@ -27,7 +27,7 @@
     "standard": "*",
     "nsp": "*",
     "commitizen": "*",
-    "cz-conventional-changelog": "*",
+    "cz-conventional-changelog": ">=3.2.0",
     "semantic-release-cli": "*",
     "istanbul": "*",
     "travis-deploy-once": "^5.0.0",
